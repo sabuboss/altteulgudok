@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% set canonical = "/" ~ nav ~ "/" %}
+{% set narrow = true %}
+{% block body %}
+<div class="crumb"><a href="/">홈</a> › {{ meta.title }}</div>
+<h1>{{ meta.title }}</h1>
+{% if meta.lead %}<p class="lead">{{ meta.lead }}</p>{% endif %}
+<div class="faq">{{ body }}</div>
+{% endblock %}

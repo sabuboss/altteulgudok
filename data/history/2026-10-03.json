@@ -1,0 +1,798 @@
+{
+"netflix": {
+"name": "넷플릭스",
+"min": "5821",
+"lock": 1,
+"plans": [
+"1개월 1개 프로필 (가성비 최고형)",
+"3개월 1개 프로필 (가성비 최고형)",
+"3개월 1개 프로필 (프리미엄 안정형)",
+"3개월 5개 프로필"
+]
+},
+"chatgpt-web": {
+"name": "ChatGPT-Web",
+"min": "0",
+"lock": 0,
+"plans": []
+},
+"avica": {
+"name": "Avica",
+"min": "15447",
+"lock": 0,
+"plans": [
+"1개월 1개 계정"
+]
+},
+"pdfelement": {
+"name": "PDFelement",
+"min": "8053",
+"lock": 0,
+"plans": [
+"1개월 1개 계정"
+]
+},
+"grok": {
+"name": "그록",
+"min": "20166",
+"lock": 0,
+"plans": [
+"3개월 SuperGrok"
+]
+},
+"manus": {
+"name": "Manus",
+"min": "5364",
+"lock": 0,
+"plans": [
+"1개월 Pro (비공개)"
+]
+},
+"poe": {
+"name": "Poe",
+"min": "14775",
+"lock": 1,
+"plans": [
+"1개월 1 자리"
+]
+},
+"gamsai": {
+"name": "Rita",
+"min": "9397",
+"lock": 0,
+"plans": [
+"12개월 Mega",
+"12개월 Pro",
+"1개월 Mega",
+"1개월 Pro"
+]
+},
+"cursor": {
+"name": "CURSOR",
+"min": "24186",
+"lock": 0,
+"plans": [
+"1개월 Pro",
+"1개월 Pro+",
+"1개월 울트라"
+]
+},
+"nanobanana": {
+"name": "DeepSeek",
+"min": "0",
+"lock": 0,
+"plans": []
+},
+"midjourney_official": {
+"name": "미드저니",
+"min": "33598",
+"lock": 1,
+"plans": [
+"1개월 개인용"
+]
+},
+"peacock_tv": {
+"name": "피콕 TV",
+"min": "4692",
+"lock": 0,
+"plans": [
+"1개월 프로필 1개 (가성비 최고)"
+]
+},
+"capcut": {
+"name": "캡컷",
+"min": "10069",
+"lock": 0,
+"plans": [
+"1개월 Pro",
+"1개월 Teams"
+]
+},
+"chatgpt": {
+"name": "챗GPT",
+"min": "6493",
+"lock": 0,
+"plans": [
+"1개월 Plus",
+"1개월 Plus (단독)",
+"3개월 Plus",
+"6개월 Plus"
+]
+},
+"aippt": {
+"name": "AIPPT",
+"min": "9801",
+"lock": 0,
+"plans": [
+"1개월 1개 계정"
+]
+},
+"gama_ai": {
+"name": "감마",
+"min": "16120",
+"lock": 0,
+"plans": [
+"1개월 Pro (단독)"
+]
+},
+"the_new_york_times": {
+"name": "The New York Times",
+"min": "1613",
+"lock": 0,
+"plans": [
+"12개월 1개 계정"
+]
+},
+"youtube": {
+"name": "유튜브 프리미엄",
+"min": "5606",
+"lock": 0,
+"plans": [
+"12개월 라이트닝 충전⚡",
+"1개월 월간 충전",
+"3개월 라이트닝 충전⚡",
+"6개월 라이트닝 충전⚡"
+]
+},
+"the_wall_street_journal": {
+"name": "The Wall Street Journal",
+"min": "4598",
+"lock": 0,
+"plans": [
+"12개월 1개 계정"
+]
+},
+"spotify": {
+"name": "스포티파이",
+"min": "4261",
+"lock": 0,
+"plans": [
+"12개월 계정 1개",
+"12개월 본인 계정 충전",
+"1개월 본인 계정 충전",
+"3개월 계정 1개",
+"3개월 본인 계정 충전"
+]
+},
+"tidal": {
+"name": "Tidal",
+"min": "3697",
+"lock": 0,
+"plans": [
+"12개월 1 자리",
+"3개월 1 자리",
+"6개월 1 자리"
+]
+},
+"scribd": {
+"name": "Scribd",
+"min": "4692",
+"lock": 0,
+"plans": [
+"1개월 1 자리",
+"3개월 1 자리"
+]
+},
+"qobuz": {
+"name": "코부즈",
+"min": "8738",
+"lock": 0,
+"plans": [
+"2개월 1개 계정"
+]
+},
+"suno": {
+"name": "수노",
+"min": "6708",
+"lock": 0,
+"plans": [
+"1개월 1 자리"
+]
+},
+"grammarly": {
+"name": "그램말리",
+"min": "5364",
+"lock": 0,
+"plans": [
+"1개월 1 자리"
+]
+},
+"adobe1": {
+"name": "어도비",
+"min": "22223",
+"lock": 0,
+"plans": [
+"1개월 Enterprise",
+"1개월 개인",
+"3개월 Enterprise"
+]
+},
+"disneyplus": {
+"name": "디즈니 플러스",
+"min": "4651",
+"lock": 0,
+"plans": [
+"12개월 1개 프로필",
+"1개월 1개 프로필",
+"3개월 1개 프로필"
+]
+},
+"updf": {
+"name": "UPDF",
+"min": "5270",
+"lock": 0,
+"plans": [
+"12개월 1 자리",
+"12개월 UPDF 1인용",
+"1개월 1 자리",
+"1개월 UPDF 1인용",
+"6개월 1 자리",
+"6개월 UPDF 1인용"
+]
+},
+"filmora": {
+"name": "필모라",
+"min": "6708",
+"lock": 0,
+"plans": [
+"1개월 고급",
+"1개월 고급 + 크리에이티브 에셋",
+"1개월 고급 + 크리에이티브 자산",
+"6개월 고급",
+"6개월 고급 + 크리에이티브 에셋"
+]
+},
+"primevideo": {
+"name": "Prime Video",
+"min": "4033",
+"lock": 0,
+"plans": [
+"6개월 하나의 계정"
+]
+},
+"crunchyrol": {
+"name": "크런치롤",
+"min": "3320",
+"lock": 0,
+"plans": [
+"12개월 1개 프로필",
+"3개월 1개 프로필",
+"6개월 1개 프로필"
+]
+},
+"deezr": {
+"name": "Deezer Family",
+"min": "3979",
+"lock": 0,
+"plans": [
+"12개월 1 자리",
+"3개월 1 자리",
+"6개월 1 자리"
+]
+},
+"mlb_tv": {
+"name": "MLB TV",
+"min": "13431",
+"lock": 0,
+"plans": [
+"1개월 1개 프로필"
+]
+},
+"duolingo": {
+"name": "듀오링고",
+"min": "2245",
+"lock": 0,
+"plans": [
+"12개월 가족 그룹 좌석 1개",
+"12개월 계정에 선물하기",
+"6개월 가족 그룹 좌석 1개"
+]
+},
+"cannva": {
+"name": "캔바",
+"min": "3925",
+"lock": 0,
+"plans": [
+"12개월 교육",
+"1개월 교육",
+"3개월 교육",
+"6개월 교육"
+]
+},
+"perplexity_ai": {
+"name": "Perplexity AI",
+"min": "5498",
+"lock": 0,
+"plans": [
+"12개월 Pro (단독）",
+"12개월 Pro(공유)",
+"3개월 Pro (단독）",
+"3개월 Pro(공유)",
+"6개월 Pro (단독）",
+"6개월 Pro(공유)"
+]
+},
+"n-vpn": {
+"name": "NordVPN",
+"min": "2688",
+"lock": 0,
+"plans": [
+"12개월 1 자리",
+"3개월 1 자리",
+"6개월 1 자리"
+]
+},
+"ad-guard": {
+"name": "AdGuard",
+"min": "3589",
+"lock": 0,
+"plans": [
+"12개월 한 계정"
+]
+},
+"f1_tv": {
+"name": "F1 TV",
+"min": "3697",
+"lock": 0,
+"plans": [
+"12개월 비공개 계정"
+]
+},
+"chatgpt-recharge": {
+"name": "ChatGPT Rercharge",
+"min": "36959",
+"lock": 0,
+"plans": [
+"1개월 개인 멤버십 충전-Plus"
+]
+},
+"wavve": {
+"name": "웨이브",
+"min": "5149",
+"lock": 0,
+"plans": [
+"3개월 프로필 1개"
+]
+},
+"tving": {
+"name": "티빙",
+"min": "7838",
+"lock": 0,
+"plans": [
+"3개월 1 자리"
+]
+},
+"similarweb": {
+"name": "Similarweb",
+"min": "4934",
+"lock": 0,
+"plans": [
+"1개월 1 슬롯",
+"3개월 1 슬롯",
+"6개월 1 슬롯"
+]
+},
+"pixiv": {
+"name": "pixiv",
+"min": "2245",
+"lock": 0,
+"plans": [
+"12개월 한 계정"
+]
+},
+"quillbot": {
+"name": "QuillBot",
+"min": "8053",
+"lock": 0,
+"plans": [
+"1개월 1 계정",
+"1개월 1 슬롯"
+]
+},
+"watcha": {
+"name": "Watcha",
+"min": "6493",
+"lock": 0,
+"plans": [
+"3개월 1 자리"
+]
+},
+"coursera": {
+"name": "Coursera",
+"min": "5041",
+"lock": 0,
+"plans": []
+},
+"elevenlabs": {
+"name": "ElevenLabs",
+"min": "18136",
+"lock": 0,
+"plans": [
+"1개월 Creator (비공개)"
+]
+},
+"gemini-recharge": {
+"name": "제미나이 대리충전",
+"min": "3293",
+"lock": 0,
+"plans": [
+"18개월 충전"
+]
+},
+"shahid": {
+"name": "Shahid",
+"min": "9397",
+"lock": 0,
+"plans": [
+"1개월 1개 프로필"
+]
+},
+"soundcloud": {
+"name": "SoundCloud",
+"min": "9397",
+"lock": 0,
+"plans": [
+"1개월 1개 계정"
+]
+},
+"linkedin": {
+"name": "LinkedIn",
+"min": "11414",
+"lock": 0,
+"plans": [
+"2개월 Business (내 계정에 선물)",
+"2개월 Career (내 계정에 선물)"
+]
+},
+"higgsfield_ai": {
+"name": "Higgsfield AI",
+"min": "38975",
+"lock": 1,
+"plans": []
+},
+"netflix-web": {
+"name": "넷플릭스 (웹)",
+"min": "5364",
+"lock": 0,
+"plans": [
+"1개월 1 자리"
+]
+},
+"wps": {
+"name": "WPS",
+"min": "403",
+"lock": 0,
+"plans": [
+"12개월 Basic",
+"12개월 Pro+",
+"1개월 Basic",
+"1개월 Pro+",
+"6개월 Pro+"
+]
+},
+"vidiq": {
+"name": "vidIQ",
+"min": "14775",
+"lock": 0,
+"plans": [
+"1개월 1개 계정"
+]
+},
+"camscanner": {
+"name": "CamScanner",
+"min": "5834",
+"lock": 0,
+"plans": [
+"12개월 Premium",
+"1개월 Premium"
+]
+},
+"steam": {
+"name": "Steam",
+"min": "17464",
+"lock": 0,
+"plans": [
+"1개월 ARC Raiders",
+"1개월 Battlefield 6",
+"1개월 Black Ops7",
+"1개월 Civilization VII",
+"1개월 Diablo IV",
+"1개월 Escape From Tarkov",
+"1개월 Escape from Duckov",
+"1개월 Modern Warfare® 4",
+"1개월 Resident Evil Requiem",
+"1개월 SPORTS FC™ 26",
+"1개월 마라톤"
+]
+},
+"avg": {
+"name": "AVG",
+"min": "5377",
+"lock": 0,
+"plans": [
+"12개월 1개 계정"
+]
+},
+"zwift": {
+"name": "Zwift",
+"min": "15447",
+"lock": 0,
+"plans": [
+"1개월 1개 계정"
+]
+},
+"boardmix": {
+"name": "boardmix",
+"min": "10742",
+"lock": 0,
+"plans": [
+"1개월 스타터"
+]
+},
+"presenti": {
+"name": "presenti",
+"min": "10338",
+"lock": 0,
+"plans": [
+"1개월 Plus"
+]
+},
+"gemini": {
+"name": "제미나이",
+"min": "2688",
+"lock": 0,
+"plans": [
+"12개월 사전 활성화 계정",
+"3개월 계정에 선물하기"
+]
+},
+"genspark": {
+"name": "젠스파크",
+"min": "61831",
+"lock": 1,
+"plans": [
+"1개월 비공개"
+]
+},
+"grok-recharge": {
+"name": "Grok Recharge",
+"min": "60487",
+"lock": 0,
+"plans": [
+"1개월 개인 멤버십 충전"
+]
+},
+"v0": {
+"name": "v0",
+"min": "8738",
+"lock": 0,
+"plans": [
+"12개월 Premium"
+]
+},
+"flowith": {
+"name": "Flowith",
+"min": "20825",
+"lock": 0,
+"plans": [
+"1개월 프로페셔널"
+]
+},
+"seedance": {
+"name": "Dreamina",
+"min": "2500",
+"lock": 1,
+"plans": [
+"1개월 스탠다드",
+"700개월 베이직"
+]
+},
+"lovable": {
+"name": "Lovable",
+"min": "14775",
+"lock": 0,
+"plans": [
+"1개월 Pro"
+]
+},
+"heygen": {
+"name": "HeyGen",
+"min": "28220",
+"lock": 1,
+"plans": [
+"1개월 Creator"
+]
+},
+"openart": {
+"name": "OpenArt",
+"min": "30909",
+"lock": 0,
+"plans": [
+"1개월 Advanced"
+]
+},
+"meshy": {
+"name": "Meshy",
+"min": "10742",
+"lock": 0,
+"plans": [
+"1개월 Pro"
+]
+},
+"terabox": {
+"name": "TeraBox",
+"min": "4692",
+"lock": 0,
+"plans": [
+"1개월 Premium",
+"3개월 Premium"
+]
+},
+"runway-accounts": {
+"name": "Runway",
+"min": "41664",
+"lock": 0,
+"plans": [
+"1개월 Pro"
+]
+},
+"remove": {
+"name": "remove",
+"min": "36286",
+"lock": 0,
+"plans": [
+"1개월 Pro"
+]
+},
+"kling-ai": {
+"name": "Kling AI",
+"min": "11548",
+"lock": 1,
+"plans": [
+"1개월 Pro (내 계정에 선물)",
+"1개월 Standard (내 계정에 선물)",
+"1개월 Ultra (계정 선물)"
+]
+},
+"fox-one": {
+"name": "FOX One",
+"min": "12086",
+"lock": 0,
+"plans": [
+"1개월 1 화면"
+]
+},
+"padlet": {
+"name": "Padlet",
+"min": "13431",
+"lock": 0,
+"plans": [
+"1개월 한 계정"
+]
+},
+"miricanvas": {
+"name": "MiriCanvas",
+"min": "6708",
+"lock": 0,
+"plans": [
+"1개월 Pro (1000 Credits)"
+]
+},
+"filmin": {
+"name": "Filmin",
+"min": "6036",
+"lock": 0,
+"plans": [
+"1개월 1 프로필"
+]
+},
+"obsidian": {
+"name": "Obsidian",
+"min": "9801",
+"lock": 0,
+"plans": [
+"1개월 Sync Plus"
+]
+},
+"candy-ai": {
+"name": "Candy AI",
+"min": "10742",
+"lock": 0,
+"plans": [
+"1개월 Premium"
+]
+},
+"gta-6": {
+"name": "GTA VI",
+"min": "88720",
+"lock": 0,
+"plans": [
+"1개월 스탠다드 에디션",
+"1개월 얼티밋 에디션"
+]
+},
+"consensus": {
+"name": "Consensus",
+"min": "13431",
+"lock": 0,
+"plans": [
+"1개월 비공개"
+]
+},
+"lumina": {
+"name": "Lumina",
+"min": "13431",
+"lock": 0,
+"plans": [
+"1개월 123"
+]
+},
+"mistral-ai": {
+"name": "Mistral AI",
+"min": "12758",
+"lock": 0,
+"plans": [
+"1개월 프라이빗"
+]
+},
+"tinder-recharge": {
+"name": "Tinder Recharge",
+"min": "16120",
+"lock": 0,
+"plans": []
+},
+"wisper-flow": {
+"name": "Wisper Flow",
+"min": "8738",
+"lock": 0,
+"plans": [
+"12개월 Student"
+]
+},
+"x-recharge": {
+"name": "X Recharge",
+"min": "8402",
+"lock": 0,
+"plans": [
+"12개월 월간 충전"
+]
+},
+"grok-bot": {
+"name": "Grok Bot",
+"min": "22170",
+"lock": 0,
+"plans": [
+"1개월 Pro"
+]
+},
+"codex": {
+"name": "Codex",
+"min": "20825",
+"lock": 0,
+"plans": [
+"1개월 Plus",
+"1개월 Pro-100",
+"1개월 Pro-200"
+]
+}
+}

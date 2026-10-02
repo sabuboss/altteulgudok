@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ title }}</title>
+<meta name="description" content="{{ desc }}">
+<link rel="canonical" href="{{ site.url }}{{ canonical or '/' }}">
+<meta property="og:title" content="{{ title }}">
+<meta property="og:description" content="{{ desc }}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{ site.name }}">
+<link rel="stylesheet" href="/static/site.css">
+{% block head %}{% endblock %}
+</head>
+<body>
+<header class="top"><div class="in">
+  <a class="brand" href="/">{{ site.name }}</a>
+  <nav>
+    {% for key, c in cats.items() %}<a href="/c/{{ key }}/"{% if nav == key %} class="on"{% endif %}>{{ c.name }}</a>{% endfor %}
+    <a href="/changes/"{% if nav == 'changes' %} class="on"{% endif %}>이번 주 변동</a>
+    <a href="/faq/"{% if nav == 'faq' %} class="on"{% endif %}>FAQ</a>
+  </nav>
+</div></header>
+<main class="wrap{% if narrow %} narrow{% endif %}">
+{% block body %}{% endblock %}
+<div class="disc">이 사이트는 {{ aff.store_name }} 제휴 링크를 포함합니다. 링크를 통해 구매하면 운영자에게 수수료가 지급되며, 구매자가 내는 금액은 달라지지 않습니다. 가격은 {{ fetched }}에 확인한 값이고 이후 바뀔 수 있습니다. 계정 공유형 상품의 특성과 위험은 <a href="/faq/">FAQ</a>에 솔직하게 적어 두었습니다.</div>
+</main>
+<footer><div class="in">
+  <div><b>{{ site.name }}</b> · {{ site.tagline }}</div>
+  <div style="margin-top:6px"><a href="/about/">운영자·제휴 고지</a> · <a href="/privacy/">개인정보</a> · <a href="/changes/">변동 기록</a> · <a href="/sitemap.xml">사이트맵</a></div>
+  <div style="margin-top:6px">© {{ year }} {{ site.name }}. 각 서비스의 상표는 해당 소유자의 것입니다.</div>
+</div></footer>
+{% if site.cf_beacon_token %}<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "{{ site.cf_beacon_token }}"}'></script>{% endif %}
+</body>
+</html>

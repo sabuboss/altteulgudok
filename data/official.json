@@ -1,0 +1,19 @@
+{
+  "_note": "공식 요금은 사람이 직접 확인해 적는다. monthly 는 원화 월 요금(부가세 포함). 연간 결제 상품은 월 환산값을 쓰고 plan 에 적는다. checked 는 확인일.",
+  "products": {
+    "youtube": {"monthly": 14900, "plan": "개인 요금제, 웹·안드로이드 결제 기준 (iOS 앱 결제는 19,500원)", "source": "https://www.fnnews.com/news/202609190818011378", "checked": "2026-10-03"},
+    "chatgpt": {"monthly": 29000, "plan": "ChatGPT Plus, 한국 계정 원화 결제·부가세 포함", "source": "https://wikidocs.net/blog/@openwiki/31449/", "checked": "2026-10-03"},
+    "disneyplus": {"monthly": 9900, "plan": "스탠다드(FHD, 동시 2대). 프리미엄은 13,900원", "source": "https://pickle.plus/blog/disney-plus-pricing-plans", "checked": "2026-10-03"},
+    "spotify": {"monthly": 11990, "plan": "프리미엄 개인. 베이직(오디오북 제외)은 8,690원", "source": "https://www.spotify.com/kr-ko/premium/", "checked": "2026-10-03"},
+    "netflix": {"monthly": 13500, "plan": "스탠다드(광고 없음, FHD). 광고형 7,000원, 프리미엄 17,000원", "source": "https://pickle.plus/blog/netflix-price-plan-comparison", "checked": "2026-10-03"},
+    "netflix-web": {"name": "넷플릭스 (웹 전용)", "monthly": 13500, "plan": "스탠다드(광고 없음, FHD) 기준", "source": "https://pickle.plus/blog/netflix-price-plan-comparison", "checked": "2026-10-03"},
+    "gemini": {"monthly": 29000, "plan": "Google AI Pro(제미나이 Pro 포함, 2TB 저장공간)", "source": "https://gemini.google/subscriptions/?hl=ko", "checked": "2026-10-03"},
+    "gemini-recharge": {"name": "제미나이 Pro 본인 계정 충전", "monthly": 29000, "plan": "Google AI Pro", "source": "https://gemini.google/subscriptions/?hl=ko", "checked": "2026-10-03"},
+    "duolingo": {"monthly": 7250, "plan": "슈퍼 듀오링고 개인, 연 87,000원을 월로 나눈 값. 월 결제는 더 비쌈", "source": "https://pickle.plus/blog/duolingo-super-discount", "checked": "2026-10-03"},
+    "capcut": {"monthly": 11900, "plan": "CapCut Pro 월 결제 할인가 기준(정가 표기 19,800원)", "source": "https://aiyogeum.com/en/tools/capcut", "checked": "2026-10-03"},
+    "cannva": {"name": "캔바 Pro", "monthly": 9900, "plan": "Canva Pro 개인 월 결제. 연 결제는 99,000원", "source": "https://softpick0.com/canva-free-vs-pro/", "checked": "2026-10-03"},
+    "crunchyrol": {"name": "크런치롤", "monthly": 9900, "plan": "팬(1대 재생). 메가팬(4대)은 10,900원", "source": "https://www.eyesmag.com/posts/164937/crunchyroll-korea-pricing-plan", "checked": "2026-10-03"},
+    "perplexity_ai": {"monthly": 28000, "plan": "Perplexity Pro 월 20달러, 환율 1,400원 환산(달러 결제, 해외 수수료 별도)", "source": "https://trendquester.com/perplexity-pro-price-worth-it-korea/", "checked": "2026-10-03"},
+    "tidal": {"monthly": 15400, "plan": "Tidal 개인 월 10.99달러 환산. 한국 정식 서비스 아님", "source": "https://quasarzone.com/bbs/qn_hardware/views/1620384", "checked": "2026-10-03"}
+  }
+}

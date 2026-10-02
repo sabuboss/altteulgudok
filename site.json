@@ -1,0 +1,21 @@
+{
+  "name": "알뜰구독",
+  "domain": "알뜰구독.kr",
+  "url": "https://xn--2e0bk4j72c16t.kr",
+  "tagline": "구독료, 확인하고 덜 내세요",
+  "description": "유튜브 프리미엄·챗GPT·넷플릭스·스포티파이 등 구독 서비스의 공식 요금과 공유 플랫폼 가격을 매주 확인해 비교합니다.",
+  "author": "알뜰구독 운영자",
+  "affiliate": {
+    "partner_url": "https://www.gamsgo.com/partner/RbD8C",
+    "promote": "RbD8C",
+    "promo_code": "ENDD6",
+    "store_name": "겜스고(GamsGo)"
+  },
+  "categories": {
+    "video": {"name": "영상·OTT", "routes": ["youtube","disneyplus","netflix","netflix-web","crunchyrol","peacock_tv","the_new_york_times","f1_tv","wavve","fox-one","tving","watcha","mlb_tv","primevideo","filmin","shahid","the_wall_street_journal"]},
+    "ai": {"name": "AI 도구", "routes": ["chatgpt","gemini","gemini-recharge","chatgpt-recharge","codex","suno","midjourney_official","perplexity_ai","grok","grok-bot","grok-recharge","kling-ai","runway-accounts","elevenlabs","gama_ai","poe","genspark","meshy","candy-ai","nanobanana","v0","openart","lumina","manus","heygen","lovable","flowith","consensus","mistral-ai","gamsai","higgsfield_ai","seedance","cursor","chatgpt-web","miricanvas","aippt","remove","boardmix","presenti","quillbot","vidiq","wisper-flow"]},
+    "music": {"name": "음악", "routes": ["spotify","soundcloud","deezr","tidal","qobuz"]},
+    "software": {"name": "소프트웨어·학습", "routes": ["cannva","adobe1","capcut","duolingo","grammarly","filmora","n-vpn","wps","similarweb","updf","pdfelement","obsidian","padlet","zwift","avg","ad-guard","camscanner","terabox","scribd","linkedin","coursera","avica","pixiv","obsidian"]}
+  },
+  "cf_beacon_token": ""
+}

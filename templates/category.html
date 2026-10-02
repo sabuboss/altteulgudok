@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% set canonical = "/c/" ~ key ~ "/" %}
+{% block body %}
+<div class="crumb"><a href="/">홈</a> › {{ cat.name }}</div>
+<h1>{{ cat.name }} 구독 가격 비교</h1>
+<p class="lead">{{ products|length }}개 서비스. 공유 플랫폼 최저가와 공식 요금을 나란히 둡니다. 마지막 확인 {{ fetched }}.</p>
+{% include "_table.html" %}
+<div class="callout"><b>표 읽는 법.</b> "공유가"는 가장 긴 결제 기간(보통 12개월)을 한 번에 결제했을 때의 월 환산 금액입니다. 1개월만 결제하면 더 비쌉니다. 각 서비스 페이지에서 기간별·유형별 가격을 전부 볼 수 있습니다.</div>
+{% endblock %}

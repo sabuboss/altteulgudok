@@ -1,0 +1,23 @@
+{# 상품 비교표. products: enrich() 결과 목록 #}
+<div class="tblwrap"><table class="tbl compact">
+<thead><tr>
+  <th>서비스</th>
+  <th class="num">공유가/월</th>
+  <th class="num">공식 요금/월</th>
+  <th class="num">절약</th>
+  <th>최저가 조건</th>
+  <th></th>
+</tr></thead>
+<tbody>
+{% for p in products %}
+<tr>
+  <td><a class="pname" href="{{ p.url }}">{{ p.display_name }}</a>{% if p.locked %}<span class="badge lock">구매 불가</span>{% endif %}</td>
+  <td class="num"><b>{{ won(p.best_monthly) }}</b></td>
+  <td class="num">{% if p.official_monthly %}{{ won(p.official_monthly) }}{% else %}<span class="off" title="공식 요금 미확인. 겜스고 표기 정가">({{ won(p.gg_list_monthly) }})</span>{% endif %}</td>
+  <td class="num">{% if p.save_pct is defined %}<span class="save">{{ p.save_pct }}%</span>{% elif p.gg_pct is defined %}<span class="off">{{ p.gg_pct }}%*</span>{% else %}-{% endif %}</td>
+  <td style="font-size:13px;color:var(--muted)">{{ p.best.month }}개월 · {{ p.best.label }}</td>
+  <td><a href="{{ p.url }}" style="white-space:nowrap;font-size:13px">자세히</a></td>
+</tr>
+{% endfor %}
+</tbody></table></div>
+<p class="meta" style="margin-top:-8px">괄호 안 금액은 공식 요금을 아직 직접 확인하지 못해 공유 플랫폼이 표기한 정가를 그대로 둔 것입니다(*). 확인된 서비스는 공식 홈페이지 요금을 기준으로 절약률을 계산했습니다. 공유가는 가장 긴 결제 기간 기준 월 환산 금액입니다.</p>
