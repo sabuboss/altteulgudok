@@ -276,4 +276,13 @@ L.append("</urlset>")
 (DIST / "sitemap.xml").write_text("\n".join(L) + "\n", encoding="utf-8")
 (DIST / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {site['url']}/sitemap.xml\n", encoding="utf-8")
 (DIST / ".nojekyll").write_text("", encoding="utf-8")
+# Cloudflare Pages 보안 헤더 (정적 사이트라 서버 코드는 없고 헤더만 둔다)
+HEADERS = [
+    "/*",
+    "  X-Content-Type-Options: nosniff",
+    "  X-Frame-Options: DENY",
+    "  Referrer-Policy: strict-origin-when-cross-origin",
+    "  Permissions-Policy: camera=(), microphone=(), geolocation=()",
+]
+(DIST / "_headers").write_text(chr(10).join(HEADERS) + chr(10), encoding="utf-8")
 print(f"built {len(urls)} pages, {len(products)} products ({len(sellable)} sellable), {len(weeks)} change weeks -> dist/")
