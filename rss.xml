@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>알뜰구독</title>
+    <link>https://xn--2e0bk4j72c16t.kr/</link>
+    <description>유튜브 프리미엄·챗GPT·넷플릭스·스포티파이 등 구독 서비스의 공식 요금과 공유 플랫폼 가격을 매주 확인해 비교합니다.</description>
+    <language>ko</language>
+    <lastBuildDate>Sat, 03 Oct 2026 09:00:00 +0900</lastBuildDate>
+    <atom:link href="https://xn--2e0bk4j72c16t.kr/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>챗GPT Plus, 공유로 쓸까 혼자 쓸까</title>
+      <link>https://xn--2e0bk4j72c16t.kr/p/chatgpt/</link>
+      <guid isPermaLink="false">https://xn--2e0bk4j72c16t.kr/p/chatgpt/</guid>
+      <description>챗GPT 공식 요금과 공유 플랫폼 가격 비교, 플랜 고르는 법, 실제로 생기는 문제와 환불 조건.</description>
+      <pubDate>Sat, 03 Oct 2026 09:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>유튜브 프리미엄, 내 계정에 얹는 방식의 장단점</title>
+      <link>https://xn--2e0bk4j72c16t.kr/p/youtube/</link>
+      <guid isPermaLink="false">https://xn--2e0bk4j72c16t.kr/p/youtube/</guid>
+      <description>유튜브 프리미엄 공식 요금과 공유 플랫폼 가격 비교, 플랜 고르는 법, 실제로 생기는 문제와 환불 조건.</description>
+      <pubDate>Sat, 03 Oct 2026 09:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>스포티파이, 내 계정 충전과 새 계정의 차이</title>
+      <link>https://xn--2e0bk4j72c16t.kr/p/spotify/</link>
+      <guid isPermaLink="false">https://xn--2e0bk4j72c16t.kr/p/spotify/</guid>
+      <description>스포티파이 공식 요금과 공유 플랫폼 가격 비교, 플랜 고르는 법, 실제로 생기는 문제와 환불 조건.</description>
+      <pubDate>Sat, 03 Oct 2026 09:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>디즈니 플러스, 프로필 하나를 받는 구조</title>
+      <link>https://xn--2e0bk4j72c16t.kr/p/disneyplus/</link>
+      <guid isPermaLink="false">https://xn--2e0bk4j72c16t.kr/p/disneyplus/</guid>
+      <description>디즈니 플러스 공식 요금과 공유 플랫폼 가격 비교, 플랜 고르는 법, 실제로 생기는 문제와 환불 조건.</description>
+      <pubDate>Sat, 03 Oct 2026 09:00:00 +0900</pubDate>
+    </item>
+  </channel>
+</rss>
