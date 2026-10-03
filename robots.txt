@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://xn--2e0bk4j72c16t.kr/sitemap.xml
