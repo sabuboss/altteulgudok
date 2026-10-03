@@ -285,4 +285,52 @@ HEADERS = [
     "  Permissions-Policy: camera=(), microphone=(), geolocation=()",
 ]
 (DIST / "_headers").write_text(chr(10).join(HEADERS) + chr(10), encoding="utf-8")
-print(f"built {len(urls)} pages, {len(products)} products ({len(sellable)} sellable), {len(weeks)} change weeks -> dist/")
+
+# ---------- RSS (네이버·구글이 새 글을 빨리 가져가도록) ----------
+from xml.sax.saxutils import escape as _esc
+_DAYS = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+_MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+
+
+def rfc822(iso):
+    d = datetime.date.fromisoformat(iso[:10])
+    return "%s, %02d %s %d 09:00:00 +0900" % (_DAYS[d.weekday()], d.day, _MONTHS[d.month - 1], d.year)
+
+
+def write_rss():
+    items = []
+    # 상품 가이드 글 (머리말의 updated 날짜 기준)
+    for p in products:
+        if p.get("guide"):
+            m = p.get("guide_meta", {})
+            items.append({"title": m.get("title") or f"{p['display_name']} 구독 가이드", "url": p["url"],
+                          "date": m.get("updated") or fetched,
+                          "desc": f"{p['display_name']} 공식 요금과 공유 플랫폼 가격 비교, 플랜 고르는 법, 실제로 생기는 문제와 환불 조건."})
+    # 주간 변동 기록 (주 1건)
+    for w in weeks:
+        if not w["events"]:
+            continue
+        head = ", ".join(f"{e['name']} {e['txt']}" for e in w["events"][:5])
+        items.append({"title": f"{w['date']} 구독 가격 변동 {len(w['events'])}건", "url": "/changes/",
+                      "date": w["date"], "desc": head, "guid": f"/changes/#{w['date']}"})
+    items.sort(key=lambda x: x["date"], reverse=True)
+    L = ['<?xml version="1.0" encoding="UTF-8"?>',
+         '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">', "  <channel>",
+         f"    <title>{_esc(site['name'])}</title>", f"    <link>{site['url']}/</link>",
+         f"    <description>{_esc(site['description'])}</description>", "    <language>ko</language>",
+         f"    <lastBuildDate>{rfc822(TODAY.isoformat())}</lastBuildDate>",
+         f'    <atom:link href="{site["url"]}/rss.xml" rel="self" type="application/rss+xml"/>']
+    for it in items[:30]:
+        url = site["url"] + it["url"]
+        guid = site["url"] + it.get("guid", it["url"])
+        L += ["    <item>", f"      <title>{_esc(it['title'])}</title>", f"      <link>{url}</link>",
+              f'      <guid isPermaLink="false">{_esc(guid)}</guid>', f"      <description>{_esc(it['desc'])}</description>",
+              f"      <pubDate>{rfc822(it['date'])}</pubDate>", "    </item>"]
+    L += ["  </channel>", "</rss>"]
+    (DIST / "rss.xml").write_text(chr(10).join(L) + chr(10), encoding="utf-8")
+    return len(items)
+
+
+n_rss = write_rss()
+
+print(f"rss {n_rss} items; built {len(urls)} pages, {len(products)} products ({len(sellable)} sellable), {len(weeks)} change weeks -> dist/")
