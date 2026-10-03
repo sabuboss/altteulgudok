@@ -12,10 +12,116 @@
     "store_name": "겜스고(GamsGo)"
   },
   "categories": {
-    "video": {"name": "영상·OTT", "routes": ["youtube","disneyplus","netflix","netflix-web","crunchyrol","peacock_tv","the_new_york_times","f1_tv","wavve","fox-one","tving","watcha","mlb_tv","primevideo","filmin","shahid","the_wall_street_journal"]},
-    "ai": {"name": "AI 도구", "routes": ["chatgpt","gemini","gemini-recharge","chatgpt-recharge","codex","suno","midjourney_official","perplexity_ai","grok","grok-bot","grok-recharge","kling-ai","runway-accounts","elevenlabs","gama_ai","poe","genspark","meshy","candy-ai","nanobanana","v0","openart","lumina","manus","heygen","lovable","flowith","consensus","mistral-ai","gamsai","higgsfield_ai","seedance","cursor","chatgpt-web","miricanvas","aippt","remove","boardmix","presenti","quillbot","vidiq","wisper-flow"]},
-    "music": {"name": "음악", "routes": ["spotify","soundcloud","deezr","tidal","qobuz"]},
-    "software": {"name": "소프트웨어·학습", "routes": ["cannva","adobe1","capcut","duolingo","grammarly","filmora","n-vpn","wps","similarweb","updf","pdfelement","obsidian","padlet","zwift","avg","ad-guard","camscanner","terabox","scribd","linkedin","coursera","avica","pixiv","obsidian"]}
+    "video": {
+      "name": "영상·OTT",
+      "routes": [
+        "youtube",
+        "disneyplus",
+        "netflix",
+        "netflix-web",
+        "crunchyrol",
+        "peacock_tv",
+        "the_new_york_times",
+        "f1_tv",
+        "wavve",
+        "fox-one",
+        "tving",
+        "watcha",
+        "mlb_tv",
+        "primevideo",
+        "filmin",
+        "shahid",
+        "the_wall_street_journal"
+      ]
+    },
+    "ai": {
+      "name": "AI 도구",
+      "routes": [
+        "chatgpt",
+        "gemini",
+        "gemini-recharge",
+        "chatgpt-recharge",
+        "codex",
+        "suno",
+        "midjourney_official",
+        "perplexity_ai",
+        "grok",
+        "grok-bot",
+        "grok-recharge",
+        "kling-ai",
+        "runway-accounts",
+        "elevenlabs",
+        "gama_ai",
+        "poe",
+        "genspark",
+        "meshy",
+        "candy-ai",
+        "nanobanana",
+        "v0",
+        "openart",
+        "lumina",
+        "manus",
+        "heygen",
+        "lovable",
+        "flowith",
+        "consensus",
+        "mistral-ai",
+        "gamsai",
+        "higgsfield_ai",
+        "seedance",
+        "cursor",
+        "chatgpt-web",
+        "miricanvas",
+        "aippt",
+        "remove",
+        "boardmix",
+        "presenti",
+        "quillbot",
+        "vidiq",
+        "wisper-flow"
+      ]
+    },
+    "music": {
+      "name": "음악",
+      "routes": [
+        "spotify",
+        "soundcloud",
+        "deezr",
+        "tidal",
+        "qobuz"
+      ]
+    },
+    "software": {
+      "name": "소프트웨어·학습",
+      "routes": [
+        "cannva",
+        "adobe1",
+        "capcut",
+        "duolingo",
+        "grammarly",
+        "filmora",
+        "n-vpn",
+        "wps",
+        "similarweb",
+        "updf",
+        "pdfelement",
+        "obsidian",
+        "padlet",
+        "zwift",
+        "avg",
+        "ad-guard",
+        "camscanner",
+        "terabox",
+        "scribd",
+        "linkedin",
+        "coursera",
+        "avica",
+        "pixiv",
+        "obsidian"
+      ]
+    }
   },
-  "cf_beacon_token": ""
+  "cf_beacon_token": "",
+  "naver_verification": "",
+  "google_verification": ""
 }

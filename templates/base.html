@@ -10,6 +10,8 @@
 <meta property="og:description" content="{{ desc }}">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="{{ site.name }}">
+{% if site.naver_verification %}<meta name="naver-site-verification" content="{{ site.naver_verification }}">{% endif %}
+{% if site.google_verification %}<meta name="google-site-verification" content="{{ site.google_verification }}">{% endif %}
 <link rel="stylesheet" href="/static/site.css">
 {% block head %}{% endblock %}
 </head>
